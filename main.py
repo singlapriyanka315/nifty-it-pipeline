@@ -7,7 +7,7 @@ NIFTY IT Weekly Review pipeline.
   2. INDEX    new headlines are embedded                   -> ChromaDB
   3. ANALYSE  returns / volatility computed from Postgres prices
   4. REPORT   vector search picks relevant news, optional LLM writes commentary
-              -> reports/<date>.md  and  the reports / report_stats tables
+              -> reports/<date>.md + .pdf  and  the reports / report_stats tables
 """
 
 from pathlib import Path
@@ -17,6 +17,7 @@ from pipeline import db
 from pipeline.analyse import compute_stats, stats_line
 from pipeline.fetch import fetch_news, fetch_prices
 from pipeline.llm import Writer
+from pipeline.pdf import render_pdf
 from pipeline.report import headline_line, render
 from pipeline.vectors import NewsIndex
 
@@ -84,7 +85,9 @@ def main():
     Path(REPORTS_DIR).mkdir(exist_ok=True)
     path = Path(REPORTS_DIR) / f"nifty-it-{as_of:%Y-%m-%d}.md"
     path.write_text(content)
-    print(f"\nDone → {path}  (saved as report #{report_id} in Postgres)")
+    pdf_path = path.with_suffix(".pdf")
+    render_pdf(pdf_path, as_of, INDEX["name"], index_stats, companies, summary)
+    print(f"\nDone → {path}\n       {pdf_path}  (saved as report #{report_id} in Postgres)")
 
 
 if __name__ == "__main__":

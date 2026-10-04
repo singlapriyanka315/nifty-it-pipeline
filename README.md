@@ -2,11 +2,11 @@
 
 A data pipeline that tracks the five big Indian IT stocks (TCS, Infosys, Wipro, HCLTech, Tech Mahindra) against the NIFTY IT index, matches price moves to news using vector search, and writes a weekly report.
 
-**[See a sample report →](examples/sample-report.md)**
+**Sample report: [PDF](examples/sample-report.pdf) · [Markdown](examples/sample-report.md)**
 
 ```
 Yahoo Finance ──► PostgreSQL ──► Python stats ──┐
-     (news) ──► ChromaDB (vectors) ── search ───┼──► LLM (Groq) ──► report (.md + Postgres)
+     (news) ──► ChromaDB (vectors) ── search ───┼──► LLM (Groq) ──► report (.pdf + .md + Postgres)
 ```
 
 | Layer | Tool | Role |
@@ -15,6 +15,7 @@ Yahoo Finance ──► PostgreSQL ──► Python stats ──┐
 | Database | PostgreSQL | Source of truth: companies, prices, news, reports |
 | Vectors | ChromaDB | Semantic search over headlines (embeddings made locally) |
 | LLM | Groq free tier, `gpt-oss-120b` (optional) | Writes commentary from computed numbers + matched headlines |
+| PDF | ReportLab | Formatted report with scoreboard table and 1-week return chart |
 
 ## Setup
 
@@ -31,7 +32,14 @@ cp .env.example .env        # add GROQ_API_KEY for AI commentary
 .venv/bin/python main.py
 ```
 
-Each run upserts prices, stores only new headlines, and saves a report to `reports/` and to the `reports` table. Running it again is safe — nothing is duplicated.
+Each run upserts prices, stores only new headlines, and saves the report as PDF + Markdown in `reports/` and in the `reports` table.
+
+To rebuild a PDF from a saved report without fetching data or calling the LLM:
+
+```bash
+.venv/bin/python make_pdf.py        # latest report
+.venv/bin/python make_pdf.py 7      # report #7
+``` Running it again is safe — nothing is duplicated.
 
 ## Database
 
@@ -65,6 +73,7 @@ ORDER BY abs(p.close / lag(p.close) OVER w - 1) DESC NULLS LAST LIMIT 10;
 
 ```
 main.py              orchestrates the 4 steps
+make_pdf.py          rebuilds a PDF from a saved report
 config.py            stocks, settings, env vars
 db/schema.sql        PostgreSQL schema
 pipeline/fetch.py    step 1 – Yahoo Finance prices + news
@@ -73,6 +82,7 @@ pipeline/vectors.py  step 2 – ChromaDB index + search
 pipeline/analyse.py  step 3 – returns, volatility (Python, not the LLM)
 pipeline/llm.py      optional Groq commentary
 pipeline/report.py   step 4 – Markdown rendering
+pipeline/pdf.py      step 4 – PDF rendering (ReportLab)
 ```
 
 _For educational purposes, not investment advice._

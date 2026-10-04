@@ -3,7 +3,7 @@ _Week ending 01 Oct 2026 · data: Yahoo Finance · for educational purposes, not
 
 ## Summary
 
-The NIFTY IT index nudged higher by +0.3% this week, holding steady after a steep ‑10.1% monthly slide, while volatility remains around 20%. Infosys was the clear outlier, jumping +2.0% on the back of the “Why Did Infosys Stock Pop on Thursday?” piece (2026‑10‑02), a move that outpaced the sector’s modest gain. In contrast, Tech Mahindra slipped ‑0.7% even though its 1‑year return of +13.5% still beats the index’s ‑16.6% decline, a resilience underscored by the “Tech Mahindra (NSEI:TECHM) Stock Sees Modest Fair Value Lift On Stronger Forecasts” (2026‑08‑01) and the recent ServiceNow partnership (2026‑08‑20). The mixed weekly performances suggest that fresh AI‑focused announcements are driving short‑term optimism for a few stocks, but broader sector momentum remains muted.
+The NIFTY IT index eked out a modest weekly gain of +0.3% while still sitting 28.3% below its 52‑week high, underscoring a broadly bearish backdrop that has seen the sector down -10.1% over the past month. Infosys was the clear outlier, jumping +2.0% on the week and riding the broader AI‑focused rally that lifted its peers, whereas the other majors either slipped or were flat. Tech Mahindra, despite a small weekly dip of ‑0.7%, remains the only stock with a positive 1‑year return (+13.5%), highlighting its relative resilience amid sector‑wide weakness. The mixed moves suggest that recent contract wins and AI initiatives are not yet enough to reverse the overall downtrend, and volatility stays elevated, with the index at 20% and the peers ranging up to 31%.
 
 ## Scoreboard
 
@@ -22,7 +22,7 @@ Best this week: **Infosys** (+2.0%) · Weakest: **Wipro** (-2.6%)
 
 ### TCS
 
-TCS closed at ₹2,075, down -0.6% for the week, lagging the NIFTY IT’s modest +0.3% gain. Its 1‑year decline of -25.5% is steeper than the index’s -16.6%, and the stock sits -35.2% from its 52‑week high versus the index’s -28.3% gap. Recent headlines – such as the July 12 Reuters note on AI hiring plans and the July 27 PR Newswire announcement of the F1R3FLY partnership – highlight strategic moves but do not directly explain the recent price weakness. Consequently, no clear news‑driven catalyst is evident for the week’s dip.
+TCS closed at ₹2,075, down -0.6% for the week, lagging the NIFTY IT’s modest +0.3% gain and trailing the index by about 0.9 percentage points. Over the past month the stock has fallen -11.6%, a steeper decline than the index’s -10.1%, while its 1‑year slide of -25.5% remains deeper than the NIFTY IT’s -16.6% loss. The recent headlines – a July 8 preview of Q1 2027 earnings, the July 10 earnings‑call recap, a July 12 AI‑engineer expansion plan, a July 27 partnership with F1R3FLY, and a September 1 dividend‑anchor piece – do not directly explain the modest weekly dip. Consequently, the move appears driven more by broader market dynamics than any single news event.
 
 **Related headlines (via vector search):**
 
@@ -34,7 +34,7 @@ TCS closed at ₹2,075, down -0.6% for the week, lagging the NIFTY IT’s mo
 
 ### Infosys
 
-Infosys closed at ₹1,035, up +2.0% this week, outpacing the NIFTY IT’s modest +0.3% gain. Its volatility of 31% also remains well above the index’s 20%, reflecting a more turbulent price path. The recent jump was highlighted in “Why Did Infosys Stock Pop on Thursday?” (2026-10-02), while the older collaboration announcements on 2026-09-30 and 2026-10-01 provide context but do not directly explain the latest move.
+Infosys closed at ₹1,035, up +2.0% for the week, outpacing the NIFTY IT’s modest +0.3% gain. Its volatility of 31% also remains well above the index’s 20%, reflecting a sharper price swing. The recent jump was highlighted in “Why Did Infosys Stock Pop on Thursday?” (2026-10-02), while the broader AI‑focused rally noted in “Accenture Soars 23% … Infosys Jumps 8%” (2026-10-01) provides additional context. Earlier collaborations, such as the “Infosys, Abn Amro Expand IT Services Collaboration” piece (2026-09-30), are older and do not directly explain the latest move.
 
 **Related headlines (via vector search):**
 
@@ -46,7 +46,7 @@ Infosys closed at ₹1,035, up +2.0% this week, outpacing the NIFTY IT’s
 
 ### Wipro
 
-Wipro closed at ₹159, down ‑2.6% for the week, versus the NIFTY IT’s modest +0.3% gain, and its 52‑week gap of ‑39.4% remains wider than the index’s ‑28.3% shortfall. The stock’s month‑end decline of ‑10.0% mirrors the broader IT sector’s ‑10.1% slide, while its 1‑year fall of ‑31.4% outpaces the index’s ‑16.6% loss. Recent headlines such as “Wipro Renews Digital Workplace Services Contract With ABB” (2026‑09‑02) and “Oracle Partners with Wipro to Strengthen End‑to‑End Pharmacovigilance Services” (2026‑09‑22) highlight new contract wins, but none directly explain the recent price weakness; the older “Is SAP (XTRA:SAP) Undervalued On Its Wipro And Aramco STO360 Launch?” (2026‑09‑24) is more of an analyst view than a catalyst.
+Wipro closed at ₹159, down -2.6% for the week, while the NIFTY IT index edged up +0.3% in the same period. Both stocks have slipped about 10% over the past month, with Wipro at -10.0% versus the index’s -10.1%, underscoring a broadly bearish short‑term trend in the sector. Recent headlines such as “Wipro Renews Digital Workplace Services Contract With ABB” (2026‑09‑02) and “Oracle Partners with Wipro to Strengthen End‑to‑End Pharmacovigilance Services” (2026‑09‑22) are relatively fresh but do not appear to have offset the overall weakness, and the older “Is SAP Undervalued On Its Wipro And Aramco STO360 Launch?” piece (2026‑09‑24) offers no clear catalyst for the price move.
 
 **Related headlines (via vector search):**
 
@@ -58,7 +58,7 @@ Wipro closed at ₹159, down ‑2.6% for the week, versus the NIFTY IT’s m
 
 ### HCLTech
 
-HCLTech closed at ₹1,243, flat for the week (‑0.0%) and down 6.6% for the month, versus the NIFTY IT’s modest weekly gain of +0.3% and a steeper monthly decline of ‑10.1%. The stock sits 26.0% below its 52‑week high, a narrower gap than the index’s 28.3% shortfall, while its 26% volatility exceeds the sector’s 20% level. Recent headlines – the acquisition of HPE’s Telco Solutions business (2026‑08‑03) and the launch of an AI‑based synthetic research study for wealth management (2026‑09‑28) – are relatively old and do not directly explain the current price stagnation. No fresh news appears to account for the week’s flat performance.
+HCLTech closed the week flat at ₹1,243, lagging the NIFTY IT’s modest +0.3% weekly gain. Over the past month the stock is down –6.6%, a narrower decline than the index’s –10.1%, while both remain roughly a quarter below their 52‑week highs (‑26.0% vs. ‑28.3%). The company’s volatility of 26% also exceeds the index’s 20%, reflecting a more erratic price path. Recent headlines – the acquisition of HPE’s Telco Solutions business (2026‑08‑03) and the launch of an AI‑based synthetic research study for wealth management (2026‑09‑28) – are relatively recent, but none directly explain the modest price movement observed this week.
 
 **Related headlines (via vector search):**
 
@@ -70,7 +70,7 @@ HCLTech closed at ₹1,243, flat for the week (‑0.0%) and down 6.6% for the mo
 
 ### Tech Mahindra
 
-Tech Mahindra closed at ₹1,533, down ‑0.7% for the week, versus the NIFTY IT’s modest +0.3% gain. Its 1‑year return of +13.5% contrasts with the index’s ‑16.6% over the same period, while both stocks sit well below their 52‑week highs (‑11.1% for Tech Mahindra vs ‑28.3% for NIFTY IT). Recent headlines – “Tech Mahindra (NSEI:TECHM) Stock Sees Modest Fair Value Lift On Stronger Forecasts” (2026‑08‑01) and “ServiceNow, Tech Mahindra Expand Partnership” (2026‑08‑20) – point to upbeat fundamentals, though the news does not directly explain the modest weekly dip. The partnership announced on 2026‑09‑22 with CoRover.ai further underscores the company’s push into AI‑driven solutions.
+Tech Mahindra closed at ₹1,533, down ‑0.7% for the week, versus the NIFTY IT’s modest +0.3% gain. Over the past month the stock slipped ‑5.5%, outperforming the index’s sharper ‑10.1% decline, while its 1‑year return of +13.5% contrasts with the NIFTY IT’s ‑16.6% performance. The share’s volatility (21%) is only marginally above the index’s 20%, and it remains ‑11.1% off its 52‑week high. No recent headline directly explains the week’s move, though earlier reports (e.g., the Aug 20 ServiceNow partnership) highlight ongoing strategic initiatives.
 
 **Related headlines (via vector search):**
 
