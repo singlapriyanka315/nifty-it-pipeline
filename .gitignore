@@ -3,3 +3,4 @@
 vector_db/
 __pycache__/
 reports/
+.DS_Store

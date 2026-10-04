@@ -2,6 +2,8 @@
 
 A data pipeline that tracks the five big Indian IT stocks (TCS, Infosys, Wipro, HCLTech, Tech Mahindra) against the NIFTY IT index, matches price moves to news using vector search, and writes a weekly report.
 
+**[See a sample report →](examples/sample-report.md)**
+
 ```
 Yahoo Finance ──► PostgreSQL ──► Python stats ──┐
      (news) ──► ChromaDB (vectors) ── search ───┼──► LLM (Groq) ──► report (.md + Postgres)
@@ -12,7 +14,7 @@ Yahoo Finance ──► PostgreSQL ──► Python stats ──┐
 | Data source | yfinance | Daily prices + news headlines, no API key |
 | Database | PostgreSQL | Source of truth: companies, prices, news, reports |
 | Vectors | ChromaDB | Semantic search over headlines (embeddings made locally) |
-| LLM | Groq free tier (optional) | Writes commentary from computed numbers + matched headlines |
+| LLM | Groq free tier, `gpt-oss-120b` (optional) | Writes commentary from computed numbers + matched headlines |
 
 ## Setup
 

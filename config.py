@@ -7,7 +7,7 @@ load_dotenv()
 DATABASE_URL = os.environ.get("DATABASE_URL", "postgresql://localhost/nifty_it")
 CHROMA_PATH = os.environ.get("CHROMA_PATH", "./vector_db")
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
-GROQ_MODEL = os.environ.get("GROQ_MODEL", "llama-3.1-8b-instant")  # check console.groq.com if retired
+GROQ_MODEL = os.environ.get("GROQ_MODEL", "openai/gpt-oss-120b")  # check console.groq.com if retired
 REPORTS_DIR = "reports"
 
 INDEX = {"name": "NIFTY IT", "symbol": "^CNXIT"}
